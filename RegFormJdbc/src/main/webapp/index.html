@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Form In Java</title>
+
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 50;
+        }
+        
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        
+        div{
+        padding: 10px;
+        } 
+        button{
+        display: block;
+        margin: 0 auto; 
+        }
+    </style>
+</head>
+
+
+<body>
+<form action="Form" method="post">
+<fieldset>
+<h1>Student Data Form </h1>
+
+<div><label>Name:</label>
+<input type="text" name="fname" placeholder="Enter Your Name"  required>
+</div>
+
+<div>
+<label>Gender:</label>
+<label>Male</label>
+<input type="radio" name="fgender"  value="Male" >
+<label>Female</label>
+<input type="radio" name="fgender"  value="Female" >
+</div>
+
+<div>
+<label>Date of Birth:</label>
+<input type="date" name="fdate" required>
+</div>
+
+<div>
+<label>Faculty:</label>
+<select name="faculty">
+<option disabled selected>Select Faculty</option>
+<option value="Bca">BCA</option>
+<option value="Bit">BIT</option>
+<option value="Bba">BBA</option>
+<option value="Bim">BIM</option>
+</select>
+</div>
+
+<div>
+<label>Current Year:</label>
+<select name="fyear">
+<option disabled selected>Select Year</option>
+<option value="First Year">First Year</option>
+<option value="Second Year">Second Year</option>
+<option value="Third Year">Third Year</option>
+<option value="Fourth Year">Fourth Year</option>
+</select>
+</div>
+
+
+<div>
+<label>Address:</label>
+<textarea name="faddress" cols="20" rows="4">
+</textarea>
+</div>
+
+<div>
+<button name="btn">Submit</button>
+</div>
+
+</fieldset>
+</form>
+</body>
+</html>

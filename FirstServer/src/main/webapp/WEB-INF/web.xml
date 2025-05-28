@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet-mapping>
+<servlet-name>ML</servlet-name>
+<url-pattern>/login</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>ML</servlet-name>
+<servlet-class>in.FirstServer.Check</servlet-class>
+
+</servlet>
+
+
+</web-app>
